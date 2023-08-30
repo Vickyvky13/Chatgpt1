@@ -1,5 +1,6 @@
 import glob
 from os.path import dirname, isfile
+from pyrogram import Client, filters
 
 
 def __list_all_modules():
